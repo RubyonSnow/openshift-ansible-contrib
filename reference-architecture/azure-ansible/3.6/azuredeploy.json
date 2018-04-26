@@ -347,7 +347,7 @@
     "gituser" : "rubyonsnow",
     "branch" : "master",
     "version" : "3.6",
-    "clustername" : "ocptest",
+    "clustername" : "ocptest3",
     "baseTemplateUrl" : "[concat('https://raw.githubusercontent.com/',variables('gituser'),'/openshift-ansible-contrib/',variables('branch'),'/reference-architecture/azure-ansible/',variables('version'),'/')]",
     "baseVMachineTemplateUriInfranode" : "[concat(variables('baseTemplateUrl'), 'infranode.json')]",
     "baseVMachineTemplateUriNode" : "[concat(variables('baseTemplateUrl'), 'node.json')]",
